@@ -15,6 +15,11 @@ class FruitViewModel: ObservableObject {
     @Published var fruitArray: [FruitModel] = []
     @Published var isLoading: Bool = false
     
+    // MARK: - Init
+    init() {
+        getFruit()
+    }
+    
     // MARK: - function
     
     func getFruit() {
