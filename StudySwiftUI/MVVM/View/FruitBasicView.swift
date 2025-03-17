@@ -27,9 +27,9 @@ struct FruitBasicView: View {
                     ForEach(fruitViewModel.fruitArray) { fruit in
                         HStack (spacing: 20) {
                             Text("\(fruit.count)")
-                                .foregroundColor(.blue)
+                                .foregroundStyle(.blue)
                             Text("\(fruit.name)")
-                                .foregroundColor(.red)
+                                .foregroundStyle(.blue)
                                 .font(.headline)
                                 .bold()
                         } //: HStack
@@ -43,7 +43,7 @@ struct FruitBasicView: View {
                         label: {
                             Image(systemName: "arrow.right")
                                 .font(.title)
-                                .foregroundColor(.black)
+                                .foregroundStyle(.black)
                         }
                     )
             )
@@ -73,7 +73,7 @@ struct SecondScreen: View {
                 ForEach(fruitViewModel.fruitArray) { fruit in
                     Text(fruit.name)
                         .font(.headline)
-                        .foregroundColor(.white)
+                        .foregroundStyle(.brown)
                 } //:LOOP
                 
                 Button {
@@ -81,7 +81,7 @@ struct SecondScreen: View {
                 } label: {
                     Text("뒤로가기")
                         .font(.largeTitle)
-                        .foregroundColor(.white)
+                        .foregroundStyle(.black)
                         .fontWeight(.bold)
                 }
                 
