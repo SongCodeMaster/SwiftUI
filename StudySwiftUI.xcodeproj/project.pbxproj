@@ -8,6 +8,7 @@
 
 /* Begin PBXFileReference section */
 		FF47403E2D799699005FE224 /* StudySwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudySwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFC88D7B2D8AB04100E8439D /* StudySwiftUI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = StudySwiftUI.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -41,6 +42,13 @@
 			isa = PBXGroup;
 			children = (
 				FF47403E2D799699005FE224 /* StudySwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFC88D7C2D8AB04100E8439D /* Products */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +105,12 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FF47403F2D799699005FE224 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FFC88D7C2D8AB04100E8439D /* Products */;
+					ProjectRef = FFC88D7B2D8AB04100E8439D /* StudySwiftUI.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				FF47403D2D799699005FE224 /* StudySwiftUI */,
